@@ -1,5 +1,22 @@
-//Cards
+//Menu fixo com scroll
 
+var nav = document.getElementById('nav');
+
+window.onscroll = function () {
+    if (window.pageYOffset > 80) {
+        nav.style.position = "fixed";
+        nav.style.top = 0;
+        nav.style.background = "rgba(0,0,0,0.8)";
+        nav.style.backdropFilter = "saturate(180%) blur(20px)"
+    } else {
+        nav.style.position = "absolute";
+        nav.style.top = 80;
+        nav.style.background = "transparent";
+        nav.style.backdropFilter = "none"
+    }
+}
+
+//Cards
 const divCards = document.querySelector("div.cards");
 const card = document.querySelector("div.card");
 
