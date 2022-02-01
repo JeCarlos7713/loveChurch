@@ -21,10 +21,7 @@ html {
   font-size: 62.5%;
   font-family: "Poppins";
   color: var(--text-dark);
-}
-
-body {
-  height: 5000px;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -381,3 +378,17 @@ main .message .wrapper {
   }
 }
 /*Animações*/
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--bg);
+  border-radius: 30px;
+}
