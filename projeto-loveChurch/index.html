@@ -7,43 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/Logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
     <title>LoveChurch</title>
 </head>
 
 <body>
     <header id="header">
-        <div class="wrapper">
-            <nav>
-                <div class="logo">
-                    <img src="img/Logo.svg" alt="Logo">
-                    <span>LoveChurch</span>
-                </div>
-                <!--Logo LoveChurch-->
-                <div class="menu">
-                    <ul class="links">
-                        <a href="">
-                            <li>Sobre nós</li>
-                        </a>
-                        <a href="">
-                            <li>Contatos</li>
-                        </a>
-                        <a href="">
-                            <li>Cultos</li>
-                        </a>
-                        <a href="">
-                            <li>Departamentos</li>
-                        </a>
-                    </ul>
-                </div>
-                <!--Menu-->
-            </nav>
 
+        <nav id="nav">
+            <div class="wrapper">
+                <div class="content">
+                    <div class="logo">
+                        <img src="img/Logo.svg" alt="Logo">
+                        <span>LoveChurch</span>
+                    </div>
+                    <!--Logo LoveChurch-->
+                    <div class="menu">
+                        <ul class="links">
+                            <a href="">
+                                <li>Sobre nós</li>
+                            </a>
+                            <a href="">
+                                <li>Contatos</li>
+                            </a>
+                            <a href="">
+                                <li>Cultos</li>
+                            </a>
+                            <a href="">
+                                <li>Departamentos</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Menu-->
+            </div>
+        </nav>
+        <div class="wrapper">
             <div class="text-hero">
                 <h1 class="title">Sejam todos bem-vindos!</h1>
                 <p>Uma igreja no coração de Deus, unificando vidas no amor de Jesus Cristo!</p>
             </div>
             <!--Texto do header-->
+        </div>
+
+
+
 
         </div>
         <!--Wrapper-->
@@ -70,7 +80,7 @@
             <!--Seção departamentos-->
             <div class="wrapper">
                 <div class="title-worship">
-                    <h3>Nossos Cultos:</h3>
+                    <h3>Nossos Departamentos:</h3>
                 </div>
                 <div class="cards">
                     <div class="card card1">
@@ -80,7 +90,7 @@
                             <h3>Homens</h2>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!--Cards-->
             </div>
@@ -127,7 +137,63 @@
             </div>
             <!--Wrapper-->
         </section>
+
+        <section class="about">
+            <div class="wrapper">
+                <div class="infos">
+                    <div class="contain">
+                        <h2>Nossa Igreja</h2>
+                        <p>A LoveChurch reside na Rua da Graça - 39, e há 20 anos, buscamos pregar a palavra do Senhor a
+                            todos, buscando a comunhão entre os irmãos e desenvolvendo amor em Deus.
+
+                            Temos como propósito ganhar nosso bairro, cidade e estado para Cristo, transbordando paz e
+                            alegria para todo lado! </p>
+                        <h3>Quer conhecer nosso ministério? Venha nos visitar!</h3>
+                        <button type="button" class="btn-go">Eu vou!</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="pray">
+            <div class="wrapper">
+                <h3>Peça sua oração</h3>
+                <div class="form-pray">
+                    <form action="">
+                        <div class="name">
+                            <label">Nome</label>
+                                <input type="text" name="name" id="name" placeholder="Ex: Jean Carlos">
+                        </div>
+                        <div class="tel">
+                            <label">Telefone</label>
+                                <input type="number" name="number" id="number" placeholder="Ex: DDD 999999999">
+                        </div>
+                        <div class="city">
+                            <label">Cidade</label>
+                                <input type="text" name="city" id="city" placeholder="Ex: São Paulo">
+                        </div>
+                        <div class="theme">
+                            <label>Tema da oração</label>
+                            <input type="text" name="theme" id="theme" placeholder="Digite o tema da sua oração">
+                        </div>
+                        <div class="submit">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="footer">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <span>LoveChurch - Rua das Graças</span>
+            <span>Desenvolvido por Jean Carlos</span>
+        </div>
+    </footer>
 
     <script src="app.js"></script>
 </body>
