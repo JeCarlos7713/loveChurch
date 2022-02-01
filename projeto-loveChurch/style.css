@@ -167,73 +167,49 @@ main .message .wrapper {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 600px;
+  height: 400px;
   background-color: var(--bg-section);
   margin-top: 70px;
 }
 
 .department .cards {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .department .card {
-  width: 250px;
-  height: 400px;
+  width: 300px;
+  height: 200px;
   border-radius: 10px;
-  position: relative;
   margin-right: 30px;
+  position: relative;
 }
 
-.department .card:hover {
-  transform: scale(1.1);
-}
-
-.department .cards .card1 {
-  background: url("img/card-men.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-.department .cards .card2 {
-  background: url("img/card-teen.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-.department .cards .card3 {
-  background: url("img/card-woman.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-.department .cards .card4 {
-  background: url("img/card-child.jpg");
-  background-size: cover;
-  background-position: bottom;
+.department .card img {
+  position: absolute;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .cards .title-departament {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 300px;
+  top: 150px;
   width: 100%;
-  height: 100px;
-  background: linear-gradient(
-    90deg,
-    var(--bg) 3.85%,
-    rgba(20, 20, 20, 0.46) 100%
-  );
+  height: 50px;
+  background-color: var(--bg);
   border-radius: 0px 0px 10px 10px;
 }
 
 .cards .title-departament h3 {
   font-size: 2rem;
-  text-shadow: var(--text-dark) 1px 1px 4px;
   color: var(--text-white);
   margin-left: 10px;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 /*Cards*/
