@@ -152,27 +152,44 @@
 
         <section class="pray" id="pray">
             <div class="wrapper">
-                <h3>Peça sua oração</h3>
                 <div class="form-pray">
+                    <h3>Peça sua oração</h3>
                     <form action="">
-                        <div class="name">
-                            <label">Nome</label>
+                        <div class="label">
+                            <div class="container">
+                                <label>Nome</label>
                                 <input type="text" name="name" id="name" placeholder="Ex: Jean Carlos">
+                            </div>
                         </div>
-                        <div class="tel">
-                            <label">Telefone</label>
-                                <input type="number" name="number" id="number" placeholder="Ex: DDD 999999999">
-                        </div>
-                        <div class="city">
-                            <label">Cidade</label>
+                        <div class="label">
+                            <div class="container">
+                                <label>Cidade</label>
                                 <input type="text" name="city" id="city" placeholder="Ex: São Paulo">
+                            </div>
                         </div>
-                        <div class="theme">
-                            <label>Tema da oração</label>
-                            <input type="text" name="theme" id="theme" placeholder="Digite o tema da sua oração">
+                        <div class="label">
+                            <div class="container">
+                                <label>Telefone</label>
+                                <input type="number" name="number" id="number" placeholder="Ex: DDD 999999999">
+                            </div>
                         </div>
-                        <div class="submit">
-                            <button type="submit">Enviar</button>
+                        <div class="label">
+                            <div class="container">
+                                <label>Tema da oração</label>
+                                <input type="text" name="theme" id="theme" placeholder="Digite o tema da sua oração">
+                            </div>
+                        </div>
+                        <div class="label">
+                            <div class="container">
+                                <label>Detalhe a sua oração</label>
+                                <input type="text" name="prayer" id="prayer"
+                                    placeholder="Descreva o seu motivo de oração">
+                            </div>
+                        </div>
+                        <div class="label">
+                            <div class="container">
+                                <button type="submit" class="bnt-pray">Enviar</button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -183,8 +200,10 @@
     <footer>
         <div class="wrapper">
             <div class="footer">
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
+                <div class="midias">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
                 <span>LoveChurch - Rua das Graças</span>
                 <span>Desenvolvido por Jean Carlos</span>
             </div>
