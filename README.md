@@ -3,6 +3,7 @@ Projeto atualizado se encontra na branch master.
 
 Landing Page para a igreja LoveChurch.
 Tecnologias usadas: HTML5, CSS3 e JavaScript.
+
 Vídeo do projeto:
 https://user-images.githubusercontent.com/79324279/152096796-a2afe27b-95a0-48a5-8bf2-dcce52d30cea.mp4
 
